@@ -6,7 +6,7 @@ import "./App.css";
 import Title from "./components/Title";
 import Products from "./components/Products";
 import Cart from "./components/Cart";
-import products from "../data.json";
+import products from "./data.json";
 function App() {
   const [count, setCount] = useState(0);
    const [quantities, setQuantities] = useState(() => {
